@@ -1,11 +1,15 @@
-{% extends "base.html" %} {% load static %} {% block title %} About - {{
-block.super }} {% endblock title %} {% block content %}
+{% extends "base.html" %} {% load static %}
+<!--  -->
+{% block title %} About - {{ block.super }} {% endblock title %}
+
+<!--  -->
+{% block content %}
 
 <section id="showcase-inner" class="py-5 text-white">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <h1 class="display-4">About Paying Guest</h1>
+        <h1 class="display-6">About Paying Guest</h1>
         <p class="lead">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
           pariatur!
@@ -35,7 +39,7 @@ block.super }} {% endblock title %} {% block content %}
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h2>We Search For The Perfect Home</h2>
+        <h2>We Search For The Perfect Couch</h2>
         <p class="lead">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
           pariatur!
@@ -71,11 +75,11 @@ block.super }} {% endblock title %} {% block content %}
 
 <!-- Work -->
 <section id="work" class="bg-dark text-white text-center">
-  <h2 class="display-4">We Work For You</h2>
-  <h4>
+  <h2 class="display-5">We Work For You</h2>
+  <h5>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit
     aperiam, unde aliquid at similique!
-  </h4>
+  </h5>
   <hr />
   <a
     href="{% url 'couches:couches' %}"

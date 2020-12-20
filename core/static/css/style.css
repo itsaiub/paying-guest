@@ -23,10 +23,15 @@ img {
   margin-right: 0.4rem;
 }
 
+#listings {
+  background: #e8eced;
+}
+
 #showcase {
   background-image: url("../img/showcase.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
   position: relative;
   min-height: 780px;
@@ -49,7 +54,11 @@ img {
 }
 
 #services {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background-image: url("../img/building.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
   min-height: 300px;
   position: relative;
   overflow: hidden;
@@ -65,7 +74,11 @@ img {
 }
 
 #showcase-inner {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background-image: url("../img/building.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
   position: relative;
   overflow: hidden;
   min-height: 200px;
@@ -128,4 +141,19 @@ img {
   #showcase-inner h1 {
     font-size: 40px;
   }
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
